@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - BLUE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.svg" alt="BLUE Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <section class="product-hero">
+            <div class="swiper product-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/product-banner1.jpg" alt="Skincare Collection">
+                        <div class="slide-content">
+                            <h2>Luxury Skincare Collection</h2>
+                            <p>Discover our premium skincare line</p>
+                            <a href="#skincare" class="cta-btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/product-banner2.jpg" alt="Makeup Collection">
+                        <div class="slide-content">
+                            <h2>Professional Makeup Series</h2>
+                            <p>Create your perfect look</p>
+                            <a href="#makeup" class="cta-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/product-banner3.jpg" alt="New Arrivals">
+                        <div class="slide-content">
+                            <h2>New Arrivals</h2>
+                            <p>Be the first to try our latest products</p>
+                            <a href="#new" class="cta-btn">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="product-categories">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">All Products</button>
+                    <button class="tab-btn" data-category="skincare">Skincare</button>
+                    <button class="tab-btn" data-category="makeup">Makeup</button>
+                    <button class="tab-btn" data-category="sets">Gift Sets</button>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product cards with hover effects -->
+                    <div class="product-card" data-category="skincare">
+                        <div class="product-image">
+                            <img src="images/product1.jpg" alt="Facial Cleanser">
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+                                    <h4>Key Benefits</h4>
+                                    <ul>
+                                        <li>Deep cleansing</li>
+                                        <li>Gentle formula</li>
+                                        <li>Suitable for all skin types</li>
+                                    </ul>
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Natural Facial Cleanser</h3>
+                            <p>Gentle, effective cleansing with natural ingredients</p>
+                            <div class="product-price">$24.99</div>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- More product cards... -->
+                </div>
+            </div>
+        </section>
+
+        <section class="product-features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature">
+                        <i class="feature-icon">🚚</i>
+                        <h3>Free Shipping</h3>
+                        <p>On orders over $50</p>
+                    </div>
+                    <div class="feature">
+                        <i class="feature-icon">✨</i>
+                        <h3>Natural Ingredients</h3>
+                        <p>100% natural and organic</p>
+                    </div>
+                    <div class="feature">
+                        <i class="feature-icon">💝</i>
+                        <h3>Satisfaction Guaranteed</h3>
+                        <p>30-day money-back guarantee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <!-- 与主页相同的页脚 -->
+    </footer>
+
+    <script src="js/products.js"></script>
+</body>
+</html> 
